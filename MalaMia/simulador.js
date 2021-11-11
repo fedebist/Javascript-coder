@@ -36,3 +36,8 @@ let resultadoSinDcto= precioSinDcto(precio, dia);
 
 let iva= ivaProducto(precio);
 alert('IVA del producto: $' + iva)
+
+ let dctoCdni = cdni(precio,dia);
+
+ let precioFinal = precio + ivaProducto(precio);
+alert('El total es de: $ ' + precioFinal);
